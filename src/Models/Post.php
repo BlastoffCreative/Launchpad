@@ -36,7 +36,7 @@ class Post extends BaseModel
 	
 	public function tags()
 	{
-		return $this->hasMany('PostTag');
+		return $this->hasMany('Tag');
 	}
 	
 }
