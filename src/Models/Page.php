@@ -29,9 +29,4 @@ class Page extends BaseModel
 		return $this->hasMany('PageComment');
 	}
 	
-	public function tags()
-	{
-		return $this->hasMany('PageTag');
-	}
-	
 }
